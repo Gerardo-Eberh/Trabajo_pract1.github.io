@@ -1,0 +1,200 @@
+body{
+    font-family: "Releway", sans-serif;
+    color: #465967;
+    text-align: justify;
+}
+nav{
+
+background: #202c38;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+letter-spacing: 0,3em;
+font-weight: bold;
+margin-top: 0px;
+justify-content: flex-end;
+
+}
+
+#contenedor{
+    padding: 0%;
+    margin-top: 20px;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background: #202c38;
+    color: #fcfcfe;
+    margin-left: 200px;
+}
+
+#linea{
+    width: 580px;
+    height: 5px;
+    margin-top: 20px;
+    background: #fcfcfe;
+}
+
+#nombre{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0,3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#descripcion{
+    letter-spacing: 0,03em;
+    margin-top: 30px;
+    font-size: 2,2em;
+}
+
+#foto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #fcfcfe;
+    border-radius: 81px;
+}
+
+
+#experiencia{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 200px;
+}
+
+#experiencia-contenor{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    
+    margin-left: 200px;
+}
+
+#experiencia-2{
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 250px;
+    
+}
+
+#experiencia-3{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+}
+
+#ui{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#barra-progreso{
+    background: #cdcdcf;
+    height: 15px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+#progreso-1{
+    background: rebeccapurple;
+    height: 15px;
+    width: 40px;
+}
+
+
+#progreso-2{
+    background: rebeccapurple;
+    height: 15px;
+    width: 60px;
+}
+
+
+#progreso-3{
+    background: rebeccapurple;
+    height: 15px;
+    width: 30px;
+}
+
+#head{
+    font-weight: bold;
+}
+/*presentacion de peliculas favoritas*/
+.container-slider{
+    width: 100%;
+    max-width: 20em;  
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.slider__section{
+width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /*object-fit: cover;*/
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: cornflowerblue;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 30%;
+    cursor: pointer;
+    
+}
+
+.slider__btn:hover{
+background: rebeccapurple;
+}
+
+.slider__btn--left{
+left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+
+}
+/*listas de redes sociales*/
+ul{
+    list-style: none;
+}
