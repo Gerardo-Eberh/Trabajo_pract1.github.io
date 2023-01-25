@@ -21,11 +21,44 @@ justify-content: flex-end;
 }
 
 #header{
-    display: grid;
+   
+    display: flex;
     grid-template-columns: 2fr 5fr;
     background: #202c38;
     color: #fcfcfe;
     margin-left: 2rem;
+}
+
+@media(max-width:1000px){
+    header{
+        flex-direction: column;
+    }
+    #linea{
+        width: 38rem;
+        height: .5rem;
+        margin-top: 2rem;
+        background: #fcfcfe;
+    }
+    
+    .nombre{
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0,3rem;
+        font-weight: bold;
+        margin-top: 4rem;
+    }
+    
+    #descripcion{
+        letter-spacing: 0,03rem;
+        margin-top: 2rem;
+        font-size: 2,2rem;
+    }
+    #descripcion1{
+        letter-spacing: 0,03rem;
+        margin-top: 2rem;
+        font-size: 2,2rem;
+    }
+    
 }
 
 #linea{
@@ -33,20 +66,29 @@ justify-content: flex-end;
     height: .5rem;
     margin-top: 2rem;
     background: #fcfcfe;
+    margin-left: 15rem;
 }
 
-#nombre{
+.nombre{
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0,3rem;
     font-weight: bold;
     margin-top: 4rem;
+    margin-left: 25rem;
 }
 
 #descripcion{
     letter-spacing: 0,03rem;
     margin-top: 2rem;
     font-size: 2,2rem;
+    margin-left: 25rem;
+}
+#descripcion1{
+    letter-spacing: 0,03rem;
+    margin-top: 2rem;
+    font-size: 2,2rem;
+    margin-left: 15rem;
 }
 
 #foto{
