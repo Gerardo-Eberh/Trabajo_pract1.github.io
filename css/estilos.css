@@ -1,0 +1,273 @@
+body{
+    font-family: "Releway", sans-serif;
+    color: #465967;
+    text-align: justify;
+}
+
+#section{
+    background: radial-gradient(
+    ellipse farthest-corner at 100% 100%,
+    rgb(255, 86, 86),
+    rgb(189, 189, 77) 30%,
+    #8bc4fd 70%,
+    beige
+  );
+}
+
+nav{
+
+background: #202c38;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+letter-spacing: 0,3em;
+font-weight: bold;
+margin-top: 0px;
+justify-content: flex-end;
+
+}
+
+#header{
+   
+    display: flex;
+    background: #202c38;
+    color: #fcfcfe;
+    grid-template-columns: 1fr 2fr 4fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#foto{
+    
+    height: 150px;
+    border: .3rem solid #fcfcfe;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0,3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#linea{
+    width: auto;
+    height: .3rem;
+    margin-top: 1rem;
+    background: #fcfcfe;
+    margin-left: auto;
+}
+
+#oficio{
+    letter-spacing: 0,03rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#encabezado{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: black;
+    border-width:1px;
+   
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    display: flex;
+    justify-content: center;
+}
+
+#head{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#t_descripcion{
+    font-family: 'Advertencia',  cursiva;
+    font-weight: 800;
+}
+
+#encabezado_centrado{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;   
+    border-style: solid;
+    border-color: black;
+    border-width:1px;
+
+}
+
+/*presentacion de peliculas favoritas*/
+.container-slider{
+    width: 100%;
+    max-width: 20em;  
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.slider__section{
+width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: cornflowerblue;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 30%;
+    cursor: pointer;  
+}
+
+.slider__btn:hover{
+background: rebeccapurple;
+}
+
+.slider__btn--left{
+left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+/*Fin presentacion de peliculas favoritas*/
+
+#encabezado_2{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: black;
+    border-width:1px;
+    
+}
+
+#lista_habilidades{
+    margin-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;    
+}
+
+#barra-progreso{
+    background: #cdcdcf;
+    height: 1rem;
+    margin-top: .5rem;
+    width: 7rem;
+    margin-left: 1px;
+}
+
+#progreso{
+    background: rebeccapurple;
+    height: 1rem;
+    width: 4rem;
+    margin-left: 1px;
+}
+
+#progreso-1{
+    background: rebeccapurple;
+    height: 1rem;
+    width: 2rem;
+    margin-left: 1px;
+}
+
+
+#progreso-2{
+    background: rebeccapurple;
+    height: 1rem;
+    width: 2rem;
+    margin-left: 1px;
+}
+
+
+#progreso-3{
+    background: rebeccapurple;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1px;
+}
+
+#lista_contactos{
+    padding: 1rem;
+    color: black;
+    text-transform: uppercase;
+    display: auto;
+    justify-content: center;
+    list-style: none;
+   font-size: .8rem;   
+}
+
+#informacion_adicional{
+    padding: 1rem;
+    color: black;
+    text-transform: uppercase;
+    display: auto;
+    justify-content: center;
+    list-style: none;
+   font-size: .8rem;  
+}
+#inf_ad{
+    font-weight: bold;
+}
+
+#contenedor_final{
+    display: flex;
+    background: #202c38;
+    color: #fcfcfe;
+    grid-template-columns: 1fr 2fr 4fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content:center;
+    border: .5rem double whitesmoke;
+}
+
+#t_final{
+    font-family: 'Advertencia',  normal;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+    
+/*listas de redes sociales*/
+#fb-like{
+    display: flex;
+    justify-content:center;
+}
